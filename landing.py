@@ -117,6 +117,33 @@ st.markdown("""
         font-weight: 600;
         margin-bottom: 0.5rem;
     }
+    .resource-links-section {
+        background-color: #F9FAFB;
+        padding: 3rem 2rem;
+        border-radius: 10px;
+        margin: 3rem 0;
+    }
+    .resource-link-box {
+        background-color: #FFFFFF;
+        border-left: 4px solid #2563EB;
+        padding: 1.5rem;
+        border-radius: 0 8px 8px 0;
+        margin-bottom: 1rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .resource-link-box a {
+        color: #2563EB;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.125rem;
+    }
+    .resource-link-box a:hover {
+        text-decoration: underline;
+    }
+    .resource-link-box p {
+        margin-top: 0.5rem;
+        color: #6B7280;
+    }
     </style>
 """, unsafe_allow_html=True)
 
@@ -211,6 +238,25 @@ with col2:
             <h3>✓ Make Informed Decisions</h3>
             <p>Know exactly what you can build before making an offer, scheduling a showing,
             or spending money on professional consultations.</p>
+        </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("</div>", unsafe_allow_html=True)
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+# Resource Links Section
+st.markdown("""
+    <div class="resource-links-section">
+        <h2 class="section-title">Resource Links</h2>
+""", unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns([1, 6, 1])
+with col2:
+    st.markdown("""
+        <div class="resource-link-box">
+            <a href="https://web.culpepercounty.gov/building" target="_blank">📋 Culpeper County Building Department</a>
+            <p>Official website for building permits, inspections, and zoning information</p>
         </div>
     """, unsafe_allow_html=True)
 
