@@ -42,6 +42,7 @@ st.markdown("""
         color: #4B5563;
         margin: 2rem auto;
         max-width: 800px;
+        text-align: center;
     }
     .problem-box {
         background-color: #FEF2F2;
