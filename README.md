@@ -20,13 +20,13 @@ pip install -r requirements.txt
 
 2. Run the Streamlit app:
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 3. Open your browser to `http://localhost:8501`
 
 ### Project Structure
 
-- `app.py` - Main Streamlit application
+- `streamlit_app.py` - Main Streamlit application
 - `requirements.txt` - Python dependencies
 - `.streamlit/config.toml` - Streamlit theme configuration
