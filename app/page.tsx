@@ -17,13 +17,13 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-blue-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-4">
               Know What You Can Build
               <span className="block text-blue-600 mt-2">Before You Buy</span>
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl sm:text-2xl text-gray-600 mb-6 max-w-3xl mx-auto">
               Discover your property's true potential in Culpeper, VA.
               Understand zoning, setbacks, and building restrictions before you invest.
             </p>
@@ -38,63 +38,61 @@ export default function Home() {
       </section>
 
       {/* Problem Section */}
-      <section className="py-16 sm:py-20 bg-white">
+      <section className="py-10 sm:py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 text-center">
-              The Problem
-            </h2>
-            <div className="space-y-6">
-              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
-                <h3 className="font-semibold text-gray-900 mb-2 text-lg">
-                  Buying land without knowing what you can build is risky
-                </h3>
-                <p className="text-gray-700">
-                  Many homeowners discover too late that their dream addition, ADU, or workshop
-                  violates setback requirements or zoning restrictions.
-                </p>
-              </div>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8 text-center">
+            The Problem
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-lg">
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Buying land without knowing what you can build is risky
+              </h3>
+              <p className="text-gray-700 text-sm">
+                Many homeowners discover too late that their dream addition, ADU, or workshop
+                violates setback requirements or zoning restrictions.
+              </p>
+            </div>
 
-              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
-                <h3 className="font-semibold text-gray-900 mb-2 text-lg">
-                  Navigating county regulations is overwhelming
-                </h3>
-                <p className="text-gray-700">
-                  Zoning codes, setback rules, and building restrictions are buried in complex
-                  documents that are difficult to understand without professional help.
-                </p>
-              </div>
+            <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-lg">
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Navigating county regulations is overwhelming
+              </h3>
+              <p className="text-gray-700 text-sm">
+                Zoning codes, setback rules, and building restrictions are buried in complex
+                documents that are difficult to understand without professional help.
+              </p>
+            </div>
 
-              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
-                <h3 className="font-semibold text-gray-900 mb-2 text-lg">
-                  Hiring professionals is expensive
-                </h3>
-                <p className="text-gray-700">
-                  Getting a survey or consulting with a land use attorney can cost thousands,
-                  even before you know if the property meets your needs.
-                </p>
-              </div>
+            <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-lg">
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Hiring professionals is expensive
+              </h3>
+              <p className="text-gray-700 text-sm">
+                Getting a survey or consulting with a land use attorney can cost thousands,
+                even before you know if the property meets your needs.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Solution Section */}
-      <section className="py-16 sm:py-20 bg-blue-50">
+      <section className="py-10 sm:py-12 bg-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-center">
               The Solution
             </h2>
-            <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-              <p className="text-xl text-gray-700 mb-6 text-center">
+            <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
+              <p className="text-lg text-gray-700 text-center">
                 PropCode gives you instant clarity on what you can build on any property
                 in Culpeper, VA — before you commit.
               </p>
             </div>
 
-            <div className="space-y-6">
-              <div className="bg-white border-l-4 border-green-500 p-6 rounded-r-lg shadow-md">
+            <div className="space-y-4">
+              <div className="bg-white border-l-4 border-green-500 p-5 rounded-r-lg shadow-md">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
                     <svg className="h-6 w-6 text-green-500 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -102,10 +100,10 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="ml-4">
-                    <h3 className="font-semibold text-gray-900 mb-2 text-lg">
+                    <h3 className="font-semibold text-gray-900 mb-2">
                       Instant Property Reports
                     </h3>
-                    <p className="text-gray-700">
+                    <p className="text-gray-700 text-sm">
                       Get a comprehensive report showing zoning, setbacks, and building restrictions
                       for any Culpeper property in minutes.
                     </p>
@@ -113,7 +111,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-white border-l-4 border-green-500 p-6 rounded-r-lg shadow-md">
+              <div className="bg-white border-l-4 border-green-500 p-5 rounded-r-lg shadow-md">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
                     <svg className="h-6 w-6 text-green-500 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -121,10 +119,10 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="ml-4">
-                    <h3 className="font-semibold text-gray-900 mb-2 text-lg">
+                    <h3 className="font-semibold text-gray-900 mb-2">
                       Clear, Visual Breakdowns
                     </h3>
-                    <p className="text-gray-700">
+                    <p className="text-gray-700 text-sm">
                       See your buildable area mapped out visually, with setback lines and restrictions
                       clearly marked. No legal jargon required.
                     </p>
@@ -132,7 +130,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-white border-l-4 border-green-500 p-6 rounded-r-lg shadow-md">
+              <div className="bg-white border-l-4 border-green-500 p-5 rounded-r-lg shadow-md">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
                     <svg className="h-6 w-6 text-green-500 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -140,10 +138,10 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="ml-4">
-                    <h3 className="font-semibold text-gray-900 mb-2 text-lg">
+                    <h3 className="font-semibold text-gray-900 mb-2">
                       Make Informed Decisions
                     </h3>
-                    <p className="text-gray-700">
+                    <p className="text-gray-700 text-sm">
                       Know exactly what you can build before making an offer, scheduling a showing,
                       or spending money on professional consultations.
                     </p>
@@ -156,13 +154,13 @@ export default function Home() {
       </section>
 
       {/* Email Capture Section */}
-      <section id="waitlist" className="py-16 sm:py-20 bg-gradient-to-b from-white to-gray-50">
+      <section id="waitlist" className="py-10 sm:py-12 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-lg shadow-xl p-8 sm:p-12 border border-gray-200">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-center">
+          <div className="bg-white rounded-lg shadow-xl p-6 sm:p-8 border border-gray-200">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 text-center">
               Join the Waitlist
             </h2>
-            <p className="text-lg text-gray-600 mb-8 text-center">
+            <p className="text-lg text-gray-600 mb-6 text-center">
               Be the first to know when PropCode launches. Get early access and exclusive pricing.
             </p>
 
@@ -210,11 +208,11 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12">
+      <footer className="bg-gray-900 text-gray-300 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-white mb-2">PropCode</h3>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-400 mb-3 text-sm">
               Helping Culpeper, VA homeowners understand their property's potential
             </p>
             <p className="text-sm text-gray-500">
