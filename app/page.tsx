@@ -55,13 +55,23 @@ export default function Home() {
           </div>
         </form>
 
-        <div className="mt-8 text-center">
-          <a
-            href="/landing"
-            className="text-blue-600 hover:text-blue-700 font-medium text-sm"
-          >
-            Learn more about PropCode →
-          </a>
+        <div className="mt-8 text-center space-y-3">
+          <div>
+            <a
+              href="/landing"
+              className="text-blue-600 hover:text-blue-700 font-medium text-sm"
+            >
+              Learn more about PropCode →
+            </a>
+          </div>
+          <div>
+            <a
+              href="/contractors"
+              className="inline-block px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors shadow-md hover:shadow-lg"
+            >
+              📋 Contractor Tracking Platform
+            </a>
+          </div>
         </div>
       </div>
 
